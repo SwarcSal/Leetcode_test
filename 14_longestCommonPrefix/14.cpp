@@ -41,3 +41,6 @@ public:
         return left.substr(0, nMin);
     }
 };
+
+
+// 二分法
