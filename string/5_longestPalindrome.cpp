@@ -4,7 +4,7 @@
  * @Author: youngchany
  * @Date: 2020-03-30 21:53:34
  * @LastEditors: youngchany
- * @LastEditTime: 2020-03-30 22:21:49
+ * @LastEditTime: 2020-03-30 22:57:35
  */
 
 /*
@@ -27,6 +27,10 @@
 
 //执行用时 :112 ms, 在所有 C++ 提交中击败了51.52%的用户
 //内存消耗 :102.1 MB, 在所有 C++ 提交中击败了35.49%的用户
+/*
+遍历字符串中每个字符，找到以当前字符为中心的最长回文串，并记录start和end
+遍历完后，得到最长回文串
+*/
 class Solution {
 public:
     int expandAroundCenter(string s, int left, int right)
