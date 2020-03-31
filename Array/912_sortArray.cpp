@@ -9,7 +9,7 @@
 #include <iostream>
 #include <vector>
 
-// 快速排序 
+// 快速排序
 class Solution {
 	int partition(vector<int>& nums, int l, int r) {
 		int pivot = nums[r];
