@@ -4,12 +4,12 @@
  * @Author: youngchany
  * @Date: 2020-03-31 22:51:43
  * @LastEditors: youngchany
- * @LastEditTime: 2020-03-31 23:07:11
+ * @LastEditTime: 2020-03-31 23:13:14
  */
 #include <iostream>
 #include <vector>
 
-// 快速排序
+// 快速排序 
 class Solution {
 	int partition(vector<int>& nums, int l, int r) {
 		int pivot = nums[r];
